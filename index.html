@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>leandrocodedev</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+            class="d-inline-block align-text-top">
+          LeandroCodeDev
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre">Sobre Mim</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#projetos">Projetos</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="sobre">
+
+
+        <h2>Sobre Mim</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fugiat
+          dignissimos nesciunt eveniet distinctio autem repudiandae unde beatae
+          laudantium reiciendis illo soluta facere quae, nobis ratione dolorem
+          fugit officiis blanditiis.
+        </p>
+        <div id="" class="col d-flex justify-content-center">
+          <button type="button" class="btn btn-secondary">WhatsApp</button>
+          <button type="button" class="btn btn-secondary">Contato</button>
+        </div>
+
+
+      </section>
+
+      <section id="habilidades">
+        <H2>Habilidades</H2>
+        <ul class="list-group">
+
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+          <li class="list-group-item">JavaScript</li>
+          <li class="list-group-item">Responsividade</li>
+          <li class="list-group-item">Bootstrap</li>
+          <li class="list-group-item">Figma</li>
+          <li class="list-group-item">Git</li>
+          <li class="list-group-item">Github</li>
+          <li class="list-group-item">PHP</li>
+          <li class="list-group-item">Vuejs</li>
+          <li class="list-group-item">Docker</li>
+        </ul>
+
+
+      </section>
+
+      <section id="clientes">
+        <h2>Clientes</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <h3>Em construção</h3>
+          </li>
+        </ul>
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <h3>Em construção</h3>
+          </li>
+        </ul>
+      </section>
+      <section id="contato">
+        <h2>Contato</h2>
+        <form action="">
+
+          <div class="row">
+            <div class="col">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="name" placeholder="First name" aria-label="nome">
+            </div>
+            <div class="col">
+              <label for="telefone" class="form-label">Telefone</label>
+              <input type="text" class="form-control" id="telefone" placeholder="(48) 44444-4444"
+                aria-label="numero de telefone">
+            </div>
+          </div>
+
+
+          <div class="col">
+            <label for="email" class="form-label">Endereço de E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          </div>
+          <div class="col">
+            <label for="name" class="form-label">Assunto</label>
+            <input type="text" class="form-control" id="assunto" placeholder="First name" aria-label="nome">
+          </div>
+
+          <div class="col">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+          </div>
+          <div id="contaoiner-enviar" class="col d-flex flex-row-reverse">
+            <button type="button" class="btn btn-secondary">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+
+  <footer class="text-body-secondary py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <p class="mb-1">©leandrocodedec 2024. Todos os direitos reservados.</p>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

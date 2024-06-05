@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 60px;
+}
+
+#sobre{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#habilidades{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#clientes{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contato{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contaoiner-enviar{
+  margin-top: 20px;
+}
+
+#botoes-contato button{
+  margin:0 10px;
+  
+}
